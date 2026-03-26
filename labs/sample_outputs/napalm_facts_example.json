@@ -1,0 +1,14 @@
+{
+  "uptime": 1234567,
+  "vendor": "Cisco",
+  "os_version": "17.03.04",
+  "serial_number": "FCW1234ABCD",
+  "model": "CSR1000V",
+  "hostname": "lab-r1",
+  "fqdn": "lab-r1.lab.local",
+  "interface_list": [
+    "GigabitEthernet1",
+    "GigabitEthernet2",
+    "Loopback0"
+  ]
+}

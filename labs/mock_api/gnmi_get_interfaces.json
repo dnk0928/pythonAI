@@ -1,0 +1,59 @@
+{
+  "notification": [
+    {
+      "timestamp": 1711094400000000000,
+      "prefix": null,
+      "update": [
+        {
+          "path": "openconfig-interfaces:interfaces",
+          "val": {
+            "interface": [
+              {
+                "name": "GigabitEthernet1",
+                "config": {
+                  "name": "GigabitEthernet1",
+                  "type": "iana-if-type:ethernetCsmacd",
+                  "mtu": 1500,
+                  "description": "UPLINK",
+                  "enabled": true
+                },
+                "state": {
+                  "name": "GigabitEthernet1",
+                  "oper-status": "UP",
+                  "admin-status": "UP",
+                  "counters": {
+                    "in-octets": "1234567890",
+                    "out-octets": "987654321",
+                    "in-errors": "0",
+                    "out-errors": "0"
+                  }
+                }
+              },
+              {
+                "name": "GigabitEthernet2",
+                "config": {
+                  "name": "GigabitEthernet2",
+                  "type": "iana-if-type:ethernetCsmacd",
+                  "mtu": 1500,
+                  "description": "ACCESS",
+                  "enabled": true
+                },
+                "state": {
+                  "name": "GigabitEthernet2",
+                  "oper-status": "UP",
+                  "admin-status": "UP",
+                  "counters": {
+                    "in-octets": "555555",
+                    "out-octets": "333333",
+                    "in-errors": "0",
+                    "out-errors": "2"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

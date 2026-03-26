@@ -1,0 +1,21 @@
+---
+r1:
+  hostname: 192.0.2.1
+  platform: ios
+  username: admin
+  groups:
+    - lab
+
+sw1:
+  hostname: 192.0.2.2
+  platform: ios
+  username: admin
+  groups:
+    - lab
+
+sw2:
+  hostname: 192.0.2.3
+  platform: ios
+  username: admin
+  groups:
+    - lab

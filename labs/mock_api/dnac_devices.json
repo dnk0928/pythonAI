@@ -1,0 +1,41 @@
+{
+  "response": [
+    {
+      "id": "a1b2c3d4-0001-0001-0001-000000000001",
+      "hostname": "lab-r1",
+      "managementIpAddress": "192.0.2.1",
+      "platformId": "CSR1000V",
+      "softwareVersion": "17.03.04",
+      "reachabilityStatus": "Reachable",
+      "role": "BORDER ROUTER",
+      "upTime": "14 days, 4:12:00.00",
+      "interfaceCount": "3",
+      "lastUpdateTime": 1711094400000
+    },
+    {
+      "id": "a1b2c3d4-0002-0002-0002-000000000002",
+      "hostname": "lab-sw1",
+      "managementIpAddress": "192.0.2.2",
+      "platformId": "C9300-24P",
+      "softwareVersion": "17.06.05",
+      "reachabilityStatus": "Reachable",
+      "role": "ACCESS",
+      "upTime": "7 days, 1:05:00.00",
+      "interfaceCount": "28",
+      "lastUpdateTime": 1711094400000
+    },
+    {
+      "id": "a1b2c3d4-0003-0003-0003-000000000003",
+      "hostname": "lab-sw2",
+      "managementIpAddress": "192.0.2.3",
+      "platformId": "C9300-24P",
+      "softwareVersion": "17.06.05",
+      "reachabilityStatus": "UnReachable",
+      "role": "ACCESS",
+      "upTime": null,
+      "interfaceCount": "28",
+      "lastUpdateTime": 1711080000000
+    }
+  ],
+  "version": "1.0"
+}

@@ -1,0 +1,18 @@
+2025-03-15T08:12:01 | ERROR    | collector | Failed to connect to lab-sw2 (192.0.2.3): NetmikoTimeoutException('SSH session not yet created')
+Traceback (most recent call last):
+  File "/project/collector.py", line 42, in fetch_uptime
+    conn = ConnectHandler(**device)
+  File "/venv/lib/python3.11/site-packages/netmiko/ssh_dispatcher.py", line 268, in ConnectHandler
+    return cls(**kwargs)
+  File "/venv/lib/python3.11/site-packages/netmiko/base_connection.py", line 425, in __init__
+    self.establish_connection()
+  File "/venv/lib/python3.11/site-packages/netmiko/base_connection.py", line 956, in establish_connection
+    self.remote_conn_pre = self._open_session()
+netmiko.exceptions.NetmikoTimeoutException: SSH session not yet created
+
+2025-03-15T08:12:05 | INFO     | collector | Successfully connected to lab-r1 (192.0.2.1)
+2025-03-15T08:12:06 | INFO     | collector | Collected uptime from lab-r1: 14 days, 4 hours, 12 minutes
+2025-03-15T08:12:06 | INFO     | collector | Successfully connected to lab-sw1 (192.0.2.2)
+2025-03-15T08:12:07 | INFO     | collector | Collected uptime from lab-sw1: 7 days, 1 hour, 5 minutes
+2025-03-15T08:12:08 | WARNING  | collector | 1 device(s) unreachable. See errors above.
+2025-03-15T08:12:08 | INFO     | collector | Report saved: artifacts/uptime_report.csv

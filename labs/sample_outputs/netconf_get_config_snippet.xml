@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="1">
+  <data>
+    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+      <hostname>lab-sw1</hostname>
+      <version>17.03.04</version>
+    </native>
+  </data>
+</rpc-reply>

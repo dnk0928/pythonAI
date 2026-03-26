@@ -1,0 +1,6 @@
+# sample syslog
+2025-01-10T10:00:01Z %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+
+2025-01-10T10:00:02Z %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+
+# ignore empty lines above in exercises

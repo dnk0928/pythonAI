@@ -1,0 +1,19 @@
+Cisco IOS Software, IOS-XE Software, Version 17.03.04 RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2024 by Cisco Systems, Inc.
+Compiled Wed 12-Jun-24 14:22 by mcpre
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.3.1r, RELEASE SOFTWARE
+
+lab-sw1 uptime is 2 weeks, 3 days, 4 hours, 12 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: power-on
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.

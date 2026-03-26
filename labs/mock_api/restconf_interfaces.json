@@ -1,0 +1,48 @@
+{
+  "ietf-interfaces:interfaces": {
+    "interface": [
+      {
+        "name": "GigabitEthernet1",
+        "description": "UPLINK-to-r1",
+        "type": "iana-if-type:ethernetCsmacd",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+          "address": [
+            {
+              "ip": "192.0.2.2",
+              "prefix-length": 24
+            }
+          ]
+        }
+      },
+      {
+        "name": "GigabitEthernet2",
+        "description": "ACCESS-VLAN10",
+        "type": "iana-if-type:ethernetCsmacd",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+          "address": [
+            {
+              "ip": "10.10.1.1",
+              "prefix-length": 24
+            }
+          ]
+        }
+      },
+      {
+        "name": "Loopback0",
+        "description": "MGMT-Loopback",
+        "type": "iana-if-type:softwareLoopback",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+          "address": [
+            {
+              "ip": "10.0.0.1",
+              "prefix-length": 32
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
